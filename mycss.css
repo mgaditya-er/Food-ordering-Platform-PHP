@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(0, 255, 255); */
+}
+
+#navigationid{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#spu{
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#logoweb{
+    margin: 6px 35px;
+    /* height: 21px; */
+}
+#logoweb img{
+    /* height: 56px;
+    margin: 34px 45px; */
+        height: 57px;
+    margin: -10px -17px;
+    /* height: 57px;
+margin: -18px -17px; */
+}
+#btn4321{
+    padding:10px 14px;
+    background-color: rgb(255, 20, 20);
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 27px;
+}
+
+#navigationid ul{
+    display: flex;
+    font-family: 'Merriweather', serif;
+}
+
+#navigationid::before{
+    content: "";
+    background-color:rgb(255, 202, 202);
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+ 
+#navigationid ul li{
+    color: rgb(247, 241, 241);
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navigationid ul li a{
+    display: block;
+    color: rgb(10, 2, 2);
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navigationid ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+  
+
+}
+.container7676{
+    font-size: 23px;
+    background-color: rgb(47, 0, 255); ;
+    /* border: 9px solid rgb(47, 0, 255); */
+    border: 9px solid rgb(255, 53, 171);
+    padding: 34px;
+    margin: 25px 30px 19px 273px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 34px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 17px;
+    width: 60%;
+}
+
+#my12{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding: 0px 200px;
+    height: 630px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+#my12::before{
+    content: "";
+    background: url(food_viva3.webp) no-repeat center center/cover;
+    /* background: url(food_viva2.jpg); */
+    position: absolute;
+    height: 100%;
+    top: 53px;
+    /* left: 0px; */
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#my12 h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 1px auto;
+    font-family: 'Festive', cursive;
+}
+#my12 p{
+    color: rgb(23, 25, 26);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Festive', cursive;
+}
+
+
+#myservice{
+    display: flex;
+    margin: 22px;
+    height: 240px;
+}
+#myservice .serbo{
+    /* background-origin: padding-box; */
+    border: 3px solid green;
+    padding: 30px;
+    margin: 2px 9px;
+    border-radius: 30px;
+    background-color: aliceblue;
+
+}
+
+#myservice .serbo img{
+    height: 100px;
+    margin:  auto;
+    display: block;
+    /* height: 300px; */
+}
+.customer-req{
+    height: 240px;
+    background-color: aqua;
+}
+#custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-it{
+    padding: 34px 70px;
+}
+#custom img{
+    height: 100px;
+}
+
+.h-prm{
+    font-size: 3.8rem;
+    padding: 10px;
+}
+.h-seco{
+    font: 1.9rem;
+    padding: 10px;
+    /* display: n; */
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 3px solid black;
+    background-color: rgb(0, 247, 247);
+    color: rgb(255, 0, 242);
+    margin: 19px ;
+    cursor: pointer;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            food-selection
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+        <link href="payment.css"  rel="stylesheet">
+        <link rel="icon" href="awesome.webp" type="image/jpeg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="payment.js"></script>  
+
+    </head>
+    <body id="body">
+        <h3>Enter quantity in white box to order the Food</h3>
+    <form class="row g-3"  action="payment.php" method="GET" >    
+        <div id="left">
+        <span class="badge bg-warning text-dark" id="badge">All Time Favourite</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">French Fries</span>
+            <input value="0" name="food1" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+        </div> 
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Chilli Cheese Toast</span>
+            <input value="0" name="food2" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Garlic Bread</span>
+            <input value="0" name="food3" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default"> Garlic Bread with Cheese </span>
+            <input  value="0" name="food4" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <span class="badge bg-warning text-dark" id="badge">Sandwich</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Plain Sandwich</span>
+            <input  value="0"name="food5"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Grilled Sandwich</span>
+            <input value="0"name="food6" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default"> Club Sandwich </span>
+            <input value="0"name="food7" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <span class="badge bg-warning text-dark" id="badge">Pizza</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Plain Pizza</span>
+            <input value="0"name="food8" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Capsicum,Onion Pizza</span>
+            <input value="0"name="food9" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Tomato,Onion Pizza</span>
+            <input value="0"name="food10" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Mashroom Pizza</span>
+            <input value="0"name="food11" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        </div>
+        <div id="right">
+            <span class="badge bg-warning text-dark" id="badge">Salad</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Russian Salad</span>
+            <input value="0" name="food12" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <span class="badge bg-warning text-dark" id="badge">Burger</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Veg Burgers</span>
+            <input value="0"name="food13" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Cheese Burgers </span>
+            <input value="0"name="food14" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <span class="badge bg-warning text-dark" id="badge">Soup</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Tomato Soup</span>
+            <input value="0"name="food15"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default"> Sweet Corn Soup </span>
+            <input value="0"name="food16"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default"> Hot-Sour Soup </span>
+            <input value="0"name="food17"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Lemon-Coriander Soup</span>
+            <input value="0"name="food18"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <span class="badge bg-warning text-dark" id="badge">Dosa</span>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default"> Plain Dosa </span>
+            <input value="0"name="food19"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Onion Dosa</span>
+            <input value="0" name="food20"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default"> Mysore Dosa </span>
+            <input value="0"name="food21"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3" style="width: 60%;">
+            <span class="input-group-text" id="inputGroup-sizing-default">Special Dosa</span>
+            <input value="0"name="food22"type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        </div>
+        <br>
+        <br>
+        <h3>Enter your delivary address.</h3>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="name" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="col-md-6">
+              <label for="mobile" class="form-label">Mobile number</label>
+              <input type="mobile" class="form-control" id="mobile" name="mobile" required>
+            </div>
+            <div class="col-12">
+              <label for="Address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="Address" name="Address" required>
+            </div>
+            <div class="col-md-6">
+              <label for="City" class="form-label">City</label>
+              <input type="text" class="form-control" id="City" name="city" required>
+            </div>
+            <div class="col-md-4">
+              <label for="State" class="form-label">State</label>
+              <select id="State" class="form-select" name="state" required>
+                <option selected>Maharastra</option>
+                <option>Gujrat</option>
+                <option>Madhya Pradesh</option>
+                <option>Keral</option>
+                <option>Gujrat</option>
+                <option>Rajastan</option>
+                <option>Andra Pradesh</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="Zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="Zip" name="zip" required>
+            </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" name="submit" class="btn btn-primary">submit</button>
+          </form>    
+          
+    </form>  
+    </body>
+</html>        

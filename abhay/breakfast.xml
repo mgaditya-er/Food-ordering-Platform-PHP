@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "breakfast.xsl"?>
+ <!-- <link rel="icon" href="awesome.webp" type="image/jpeg"> -->
+<catalog>
+  <cd>
+    <Category>All time Favourite</Category>
+    <Food-Items>French Fries</Food-Items>
+    <price>106/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Chilli Cheese Toast</Food-Items>>
+    <price>90/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Garlic Bread</Food-Items>>
+    <price>98/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Garlic Bread with Cheese</Food-Items>>
+    <price>110/-</price>
+  </cd>
+  <cd>
+    <Category>Sandwich</Category>
+    <Food-Items>Plain Sandwich</Food-Items>>
+    <price>170/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Grilled Sandwich</Food-Items>>
+    <price>190/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Club Sandwich</Food-Items>>
+    <price>210/-</price>
+  </cd>
+  <cd>
+    <Category>Salads</Category>
+    <Food-Items>Russian Salad</Food-Items>>
+    <price>110/-</price>
+  </cd>
+  <cd>
+    <Category>Burgers</Category>
+    <Food-Items>Veg Burgers</Food-Items>>
+    <price>100/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Cheese Burgers</Food-Items>>
+    <price>130/-</price>
+  </cd>
+  <cd>
+    <Category>Pizza</Category>
+    <Food-Items>Plain Pizza</Food-Items>>
+    <price>210/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Capsicum,Onion Pizza</Food-Items>>
+    <price>210/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Tomato,Onion Pizza</Food-Items>>
+    <price>210/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Mashroom Pizza</Food-Items>>
+    <price>250/-</price>
+  </cd>
+  <cd>
+    <Category>Soups</Category>
+    <Food-Items>Tomato Soup</Food-Items>>
+    <price>50/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Sweet Corn Soup</Food-Items>>
+    <price>60/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Hot-Sour Soup</Food-Items>>
+    <price>50/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Lemon-Coriander Soup</Food-Items>>
+    <price>70/-</price>
+  </cd>
+  <cd>
+    <Category>Dosa</Category>
+    <Food-Items>Plain Dosa</Food-Items>>
+    <price>70/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Onion Dosa</Food-Items>>
+    <price>90/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Mysore Dosa</Food-Items>>
+    <price>140/-</price>
+  </cd>
+  <cd>
+    <Category></Category>
+    <Food-Items>Special Dosa</Food-Items>>
+    <price>170/-</price>
+  </cd>
+</catalog>

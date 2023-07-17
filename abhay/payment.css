@@ -1,0 +1,38 @@
+#body{
+    background-image: url(zz.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    float: right;
+    width:95%;
+}
+
+#left{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+
+#right{
+    float: right;
+    width: 50%;
+    height: 700px;
+}
+#badge {
+    font-size: 15px;
+}
+#mobile{
+    width: 80%;
+}
+#name{
+    width: 80%;
+}
+#Address{
+    width: 80%;
+}
+#city{
+    width: 80%;
+}
+#Zip{
+    width: 60%;
+}
